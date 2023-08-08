@@ -1,0 +1,30 @@
+﻿@model NewCrudApp.Models.AddEmployeeModel
+
+
+<h3><u>Add a New Employee</u></h3>
+
+@*<form method="post" action="Add" class="mt-5">*@
+<form method="post" enctype="multipart/form-data" asp-controller="Employee" asp-action="Add" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Employee Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Employee Email</label>
+        <input type="text" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Employee Salary</label>
+        <input type="number" class="form-control" asp-for="Salary">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Date of Joining</label>
+        <input type="date" class="form-control" asp-for="DateOfJoining">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">City Name</label>
+        <input type="text" class="form-control" asp-for="City">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

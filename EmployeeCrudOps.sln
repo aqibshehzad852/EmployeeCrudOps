@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCrudApp", "NewCrudApp.csproj", "{8A9FC784-819E-43A1-A0D1-E235987A3488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C496A7E-66D1-47A6-B4D2-0EA283E41D37}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9FC784-819E-43A1-A0D1-E235987A3488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9FC784-819E-43A1-A0D1-E235987A3488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9FC784-819E-43A1-A0D1-E235987A3488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9FC784-819E-43A1-A0D1-E235987A3488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8FB71CA-F325-4EE1-9D3B-B4B79E12258D}
+	EndGlobalSection
+EndGlobal

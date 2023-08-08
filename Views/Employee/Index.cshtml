@@ -1,0 +1,32 @@
+﻿@model List<NewCrudApp.Models.Domain.Employee>;
+
+<h1>Employees</h1>
+<table>
+    <thead>
+        <tr>
+        <th>Id</th>
+        <th>Name of Employee</th>
+        <th>Email</th>
+        <th>Salary</th>
+        <th>Date of Joining</th>
+        <th>City</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var employee in Model)
+        {
+        <tr>
+            <td hidden>@employee.Id</td>
+            <td>@employee.Name</td>
+            <td>@employee.Email</td>
+            <td>@employee.Salary</td>
+            <td>@employee.DateOfJoining.ToString("dd-MM-yyyy")</td>
+            <td>@employee.City</td>
+            <td><a href="Employee/View/@employee.Id">View</a></td>
+          
+        </tr>
+        }
+
+    </tbody>
+</table>
